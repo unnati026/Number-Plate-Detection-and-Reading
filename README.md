@@ -40,7 +40,7 @@ To train the YOLO model on your dataset, make sure your directory looks like:
 |   |   |-- image1.jpg
 |   |   |-- image2.jpg
 |   |   ...
-|   |-- dataset.yaml
+|-- dataset.yaml
 ```
 The YAML file should contain the paths of the train, test, and validation sets and a mapping of labels to class names.
 
