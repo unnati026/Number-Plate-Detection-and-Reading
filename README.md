@@ -4,7 +4,7 @@ This repository contains code for a project that involves detecting and reading 
 
 ## Introduction
 
-This project utilizes the Ultralytics YOLO library for number plate detection in images and videos. After detection, the Tesseract OCR library is applied to read the text from the detected license plates. The code is structured to process images, and a sample video is included for demonstration purposes.
+This project utilizes the Ultralytics YOLO library for number plate detection in images and videos. After detection, the Tesseract OCR library is applied to read the text from the detected license plates. The code is structured to process videos and webcam feed as required, and a sample video is included for demonstration purposes.
 
 ## Dataset Preparation
 
