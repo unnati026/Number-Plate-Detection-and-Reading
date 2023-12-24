@@ -8,7 +8,7 @@ This project utilizes the Ultralytics YOLO library for number plate detection in
 
 ## Dataset Preparation
 
-The dataset used for training should be in Pascal VOC format. The Jupyter notebook `dataset-prep.ipynb` converts the annotation to YOLO format which is required for training. The code also splits the dataset into train and validation sets. Later more images were added in both the sets from a different dataset. Test set (optional for training) was also created later manually.
+The dataset we used for training is in Pascal VOC format and should be converted to YOLO annotation format. The Jupyter notebook `dataset-prep.ipynb` does the required conversion. The code also splits the dataset into train and validation sets. Later more images were added in both the sets from a different dataset. Test set (optional for training) was also created later manually.
 To train the YOLO model on your dataset, make sure your directory looks like:
 
 ```
